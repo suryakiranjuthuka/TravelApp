@@ -54,14 +54,14 @@ input {
 	border-radius: 0;
 	outline: none;
 	appearance: none;
-	letter-spacing: 0.14rem;
+	/* letter-spacing: 0.14rem; */
 	&::placeholder {
 		/* color: var(--search-text); */
 		/* font-family: var(--ff-heading); */
 		/* font-size: 1.2rem; */
 		/* font-weight: var(--fw-semi-bold); */
 		line-height: normal;
-		letter-spacing: 0.24rem;
+		/* letter-spacing: 0.24rem; */
 		/* text-transform: uppercase; */
 	}
 }

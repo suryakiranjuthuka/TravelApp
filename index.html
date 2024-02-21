@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>NIFT Web Design Example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -31,8 +31,93 @@
 
       <section id="home">
 
-        <h1>Discover a new world</h1>
+        <h1 id="title">Discover<br> a new world</h1>
 
+
+        <div id="search">
+          <input type="search" name="" value="" placeholder="Location, Country...">
+          <img src="./icons/Search.svg">
+        </div>
+
+        <h2>Popular</h2>
+        <section id="popular">
+          <!-- Small Card -->
+          <div class="smallCard">
+            <img src="./img/1.png">
+            <p>Mountains</p>
+          </div>
+          <!-- Small Card -->
+          <div class="smallCard">
+            <img src="./img/2.png">
+            <p>Beach</p>
+          </div>
+          <!-- Small Card -->
+          <div class="smallCard">
+            <img src="./img/3.png">
+            <p>City</p>
+          </div>
+          <!-- Small Card -->
+          <div class="smallCard">
+            <img src="./img/4.png">
+            <p>Sky</p>
+          </div>
+        </section>
+
+
+        <h2>Upcoming</h2>
+        <section id="upcoming">
+
+          <!-- Large Card -->
+          <div class="largeCard">
+            <img src="./img/1_large.png">
+            <div class="desc">
+              <div class="title">
+                <span>Canada</span>
+                <img src="./icons/Arrow.svg">
+              </div>
+              <p>30 March</p>
+            </div>
+          </div>
+
+          <!-- Large Card -->
+          <div class="largeCard">
+            <img src="./img/2_large.png">
+            <div class="desc">
+              <div class="title">
+                <span>Bali</span>
+                <img src="./icons/Arrow.svg">
+              </div>
+              <p>17 August</p>
+            </div>
+          </div>
+
+          <!-- Large Card -->
+          <div class="largeCard">
+            <img src="./img/3_large.png">
+            <div class="desc">
+              <div class="title">
+                <span>California</span>
+                <img src="./icons/Arrow.svg">
+              </div>
+              <p>1 December</p>
+            </div>
+          </div>
+
+          <!-- Large Card -->
+          <div class="largeCard">
+            <img src="./img/4_large.png">
+            <div class="desc">
+              <div class="title">
+                <span>India</span>
+                <img src="./icons/Arrow.svg">
+              </div>
+              <p>5 January</p>
+            </div>
+          </div>
+
+
+
+        </section>
 
 
       </section>
