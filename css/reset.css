@@ -58,11 +58,11 @@ input {
 	&::placeholder {
 		/* color: var(--search-text); */
 		/* font-family: var(--ff-heading); */
-		font-size: 1.2rem;
+		/* font-size: 1.2rem; */
 		/* font-weight: var(--fw-semi-bold); */
 		line-height: normal;
 		letter-spacing: 0.24rem;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 	}
 }
 
